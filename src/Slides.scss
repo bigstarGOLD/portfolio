@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 80%;
+}
+
+.sale-item {
+  display: flex;
+  flex-flow: column;
+  border:  1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.sale-item > h1 {
+  margin: 1rem 1rem 0;
+}
+.sale-item > ul {
+  margin: 0 0 1rem;
+}
+.sale-item > p {
+  margin: 0.25em 1rem 1rem;
+}
+.sale-item > img {
+  order: -1;
+  align-self: center;
+}
+.sale-item > button {
+  margin-top: auto; 
+  background: teal;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+}
+
+.career{
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  height: 10rem;
+  width: 20rem;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 1.5px 1.5px 4px black;
+  transition: transform .3s ease-in-out;
+  
+}
+
+.profile-card:hover {
+  transform: scale(1.1);
+}
+
+.top {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  text-align: center;
+  height: 75%;
+  width: 100%;
+  background: #2E2866;
+  position: relative;
+}
+
+
+.player-img {
+  white-space: pre-line;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  //background-image: url("https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvemkC%2FbtqDkzFzUMn%2FCj2oJTOGsDuNz5edtIo2C0%2Fimg.jpg");
+  background-size: cover;
+  background-position-x: -1rem;
+  background-repeat: no-repeat;
+}
+
+h4 {
+  margin-bottom: .8rem;
+}
+
+.city  {
+  margin-bottom: 1rem;
+  font-size: .3rem;
+}
+
+.details {
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+.buttons {
+  width: 20rem;
+  height: 2.5rem;
+  font-size:18px;
+  border: none;
+  border-radius: .2rem;
+}
+
+
+
+.first-btn {
+  background: teal;
+}
+
+/*.first-btn:hover {
+  background: none;
+  border: solid 2px teal;
+  color: teal;
+}*/
+
+.second-btn {
+  background: none;
+  border: solid 2px teal;
+  color: teal;
+}
+
+.second-btn:hover {
+  background: teal;
+  color: black;
+}
+
+.bottom {
+ padding: 1rem .5rem;
+}
+
+.bottom p {
+text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+
+.bottom button {
+  height: 1.5rem;
+  background: none;
+  border: 1px solid #302E47;
+  padding: 0rem .5rem;
+  color: white;
+  margin-bottom: .4rem;
+}
+
+
+.pro {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #F1BB06;
+  border-radius: .2rem;
+  height: 1.5rem;
+  width: 3rem;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
